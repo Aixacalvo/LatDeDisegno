@@ -1,0 +1,53 @@
+
+.navBarSec {
+    font-family: $fontRoboto;
+    gap: 35px;
+    color: $mainColor;
+    font-size: 16px;
+}
+
+.imgContainer {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-areas: 1fr, 1fr, 1fr;
+    grid-template-areas:
+        "imgpo1 imgpo2 imgpo3"
+        "imgpo1 imgpo2 imgpo4"
+        "imgpo1 imgpo5 iimgpo6"
+    ;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+
+    .imgpo1 {
+        width: 100%;
+        margin-top: 30px;
+        padding: 30px;
+
+    }
+
+    .imgpo2 {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .imgpo3 {
+        width: 100%;
+        margin-top: 30px;
+        padding: 30px;
+    }
+
+    .imgpo4 {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .imgpo5 {
+        width: 100%;
+    }
+
+    .imgpo6 {
+        width: 100%;
+        padding: 30px;
+    }
+
+}

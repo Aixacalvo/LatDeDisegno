@@ -1,0 +1,193 @@
+@media screen and (max-width:480px) {
+
+
+    * {
+        animation: none;
+        transition: none;
+    }
+
+
+
+
+    .tarjetas {
+        width: 100%;
+        height: 100vh;
+        margin-top: 60px;
+        margin-right: 20px;
+        margin-left: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 0px;
+
+        .cardIndex {
+            margin-left: 0px;
+            margin-right: 0px;
+            gap: 0px;
+            grid-gap: 0px;
+        }
+    }
+
+
+    .titleIndexUno {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .parragrafIndexUno {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .titleIndexDos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .parragrafIndexDos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .gridNos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .titleSectionNos {
+            font-size: 50px;
+            display: flex;
+            justify-content: end;
+            align-items: flex-end;
+            flex-direction: column;
+        }
+
+        .img1 {
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        .img2 {
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
+    }
+
+
+    .parrafragSection {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        .parrafragSectionNos {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+    }
+
+
+    .navBarSec {
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .imgContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .imgpo2 {
+            padding-right: 30px;
+            padding-left: 30px;
+        }
+
+        .imgpo5 {
+            padding-right: 30px;
+            padding-left: 30px;
+        }
+
+    }
+
+
+
+    .titleSectionServ {
+        font-size: 50px;
+    }
+
+    .parragrafSectionServ {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .containerSrv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .ic1 {
+            width: 40%;
+            padding: 10px;
+        }
+
+        .ic2 {
+            width: 40%;
+            padding: 10px;
+        }
+
+        .ic3 {
+            width: 40%;
+            padding: 10px;
+        }
+
+        .ic4 {
+            width: 40%;
+            padding: 10px;
+        }
+    }
+
+
+
+    .sectionForm {
+
+        padding: 30px;
+
+    }
+}

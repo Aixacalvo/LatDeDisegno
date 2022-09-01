@@ -1,0 +1,653 @@
+@import url("https://fonts.googleapis.com/css2? family= Roboto:wght@100;300 & display=swap");
+@import url("https://fonts.googleapis.com/css2? family= Allura & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navIndex {
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  color: rgb(31, 53, 36);
+  font-size: 46px;
+  background-color: white;
+}
+.navIndex .navIndexMenu {
+  font-family: "Roboto", sans-serif;
+  gap: 35px;
+  color: rgb(31, 53, 36);
+  font-size: 16px;
+}
+.navIndex .navIndexMenu a:hover {
+  text-decoration: underline;
+}
+
+.imagenIndex {
+  background-image: url("./../images/ve.jpg");
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+}
+.imagenIndex .titleIndexUno {
+  font-size: 58px;
+}
+.imagenIndex .parragrafInndexUno {
+  font-size: 40px;
+}
+
+.sectionIndex {
+  background-color: rgb(142, 168, 156);
+  color: rgb(31, 53, 36);
+}
+.sectionIndex .titleIndexDos {
+  font-family: "Roboto", sans-serif;
+  font-size: 44px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  letter-spacing: 4px;
+}
+.sectionIndex .parragrafIndexDos {
+  font-family: "Allura", cursiva;
+  margin-left: 130px;
+  font-size: 30px;
+}
+
+.tarjetas {
+  width: 100%;
+  height: 400px;
+  margin: 50px;
+  gap: 250px;
+  grid-gap: 250px;
+}
+.tarjetas .cardText1 {
+  position: relative;
+  margin-bottom: 100px;
+}
+.tarjetas .cardText2 {
+  margin-left: 100px;
+  font-size: 20px;
+}
+.tarjetas .cardText3 {
+  margin-left: 100px;
+  font-size: 20px;
+}
+.tarjetas section h3 a {
+  text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  line-height: 25px;
+  padding: 10px;
+}
+
+.titleSectionNos {
+  font-family: "Roboto", sans-serif;
+  font-size: 70px;
+  color: rgb(31, 53, 36);
+  margin-right: 80px;
+  margin-top: 40px;
+}
+
+.img1 {
+  width: 20%;
+  padding: 10px;
+  margin-bottom: 50px;
+  margin-left: 180px;
+}
+
+.img2 {
+  width: 20%;
+  padding: 10px;
+  margin-bottom: 50px;
+  margin-left: 180px;
+}
+
+.parragrafSection {
+  background-color: rgb(31, 53, 36);
+  height: 40vh;
+  padding: 20px;
+  text-align: center;
+}
+
+.parragrafSectionNos {
+  background-color: rgb(31, 53, 36);
+  height: 20vh;
+  padding: 20px;
+  text-align: center;
+}
+
+.navBarSec {
+  font-family: "Roboto", sans-serif;
+  gap: 35px;
+  color: rgb(31, 53, 36);
+  font-size: 16px;
+}
+
+.imgContainer {
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-template-areas: 1fr, 1fr, 1fr;
+  grid-template-areas: "imgpo1 imgpo2 imgpo3" "imgpo1 imgpo2 imgpo4" "imgpo1 imgpo5 iimgpo6";
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+.imgContainer .imgpo1 {
+  width: 100%;
+  margin-top: 30px;
+  padding: 30px;
+}
+.imgContainer .imgpo2 {
+  width: 100%;
+  margin-top: 30px;
+}
+.imgContainer .imgpo3 {
+  width: 100%;
+  margin-top: 30px;
+  padding: 30px;
+}
+.imgContainer .imgpo4 {
+  width: 100%;
+  padding: 30px;
+}
+.imgContainer .imgpo5 {
+  width: 100%;
+}
+.imgContainer .imgpo6 {
+  width: 100%;
+  padding: 30px;
+}
+
+.imagenSection {
+  background-image: url(./../images/bckgrimg.jpg);
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.imagenSection .titleSectionServ {
+  font-family: "Roboto", sans-serif;
+  font-size: 55px;
+}
+.imagenSection .parragrafSectionServ {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.ic1 {
+  width: 35%;
+  margin: 50px;
+}
+
+.ic2 {
+  width: 35%;
+  margin: 50px;
+}
+
+.ic3 {
+  width: 35%;
+  margin: 50px;
+}
+
+.ic4 {
+  width: 35%;
+  margin: 50px;
+}
+
+.parragrafIco1 {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.parragrafIco2 {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.parragrafIco3 {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.parragrafIco4 {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.sectionForm {
+  background-color: rgba(96, 132, 114, 0.699);
+  font-family: "Roboto", sans-serif;
+}
+.sectionForm .textForm {
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-right: 10px;
+  text-align: center;
+}
+.sectionForm .textFormDos {
+  font-size: 12px;
+  margin-top: 10px;
+  text-align: center;
+}
+.sectionForm .textFormTres {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.sectionForm .btnForm {
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 480px) {
+  * {
+    -webkit-animation: none;
+            animation: none;
+    transition: none;
+  }
+  .tarjetas {
+    width: 100%;
+    height: 100vh;
+    margin-top: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .tarjetas .cardIndex {
+    margin-left: 0px;
+    margin-right: 0px;
+    gap: 0px;
+    grid-gap: 0px;
+  }
+  .titleIndexUno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+  }
+  .parragrafIndexUno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
+  }
+  .titleIndexDos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .parragrafIndexDos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .gridNos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .gridNos .titleSectionNos {
+    font-size: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  .gridNos .img1 {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .gridNos .img2 {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .parrafragSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .parrafragSection .parrafragSectionNos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .navBarSec {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .imgContainer .imgpo2 {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .imgContainer .imgpo5 {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .titleSectionServ {
+    font-size: 50px;
+  }
+  .parragrafSectionServ {
+    text-align: center;
+    font-size: 14px;
+  }
+  .containerSrv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .containerSrv .ic1 {
+    width: 40%;
+    padding: 10px;
+  }
+  .containerSrv .ic2 {
+    width: 40%;
+    padding: 10px;
+  }
+  .containerSrv .ic3 {
+    width: 40%;
+    padding: 10px;
+  }
+  .containerSrv .ic4 {
+    width: 40%;
+    padding: 10px;
+  }
+  .sectionForm {
+    padding: 30px;
+  }
+}
+.navIndex {
+  -webkit-animation: scale-in-hor-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-hor-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes scale-in-hor-left {
+  0% {
+    transform: scaleX(0);
+    transform-origin: 0 0;
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(1);
+    transform-origin: 0 0;
+    opacity: 1;
+  }
+}
+@keyframes scale-in-hor-left {
+  0% {
+    transform: scaleX(0);
+    transform-origin: 0 0;
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(1);
+    transform-origin: 0 0;
+    opacity: 1;
+  }
+}
+.navIndexMenu {
+  -webkit-animation: scale-in-hor-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-hor-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+@-webkit-keyframes scale-in-hor-right {
+  0% {
+    transform: scaleX(0);
+    transform-origin: 100% 100%;
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(1);
+    transform-origin: 100% 100%;
+    opacity: 1;
+  }
+}
+@keyframes scale-in-hor-right {
+  0% {
+    transform: scaleX(0);
+    transform-origin: 100% 100%;
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(1);
+    transform-origin: 100% 100%;
+    opacity: 1;
+  }
+}
+.imagenIndex {
+  -webkit-animation: scale-in-ver-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-ver-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+@-webkit-keyframes scale-in-ver-center {
+  0% {
+    transform: scaleY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+@keyframes scale-in-ver-center {
+  0% {
+    transform: scaleY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+.titleIndexUno {
+  -webkit-animation: scale-in-ver-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-ver-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+@-webkit-keyframes scale-in-ver-top {
+  0% {
+    transform: scaleY(0);
+    transform-origin: 100% 0;
+    opacity: 1;
+  }
+  100% {
+    transform: scaleY(1);
+    transform-origin: 100% 0;
+    opacity: 1;
+  }
+}
+@keyframes scale-in-ver-top {
+  0% {
+    transform: scaleY(0);
+    transform-origin: 100% 0;
+    opacity: 1;
+  }
+  100% {
+    transform: scaleY(1);
+    transform-origin: 100% 0;
+    opacity: 1;
+  }
+}
+.parragrafIndexUno {
+  -webkit-animation: scale-in-ver-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-ver-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+@-webkit-keyframes scale-in-ver-bottom {
+  0% {
+    transform: scaleY(0);
+    transform-origin: 0 100%;
+    opacity: 1;
+  }
+  100% {
+    transform: scaleY(1);
+    transform-origin: 0 100%;
+    opacity: 1;
+  }
+}
+@keyframes scale-in-ver-bottom {
+  0% {
+    transform: scaleY(0);
+    transform-origin: 0 100%;
+    opacity: 1;
+  }
+  100% {
+    transform: scaleY(1);
+    transform-origin: 0 100%;
+    opacity: 1;
+  }
+}
+.sectionIndex {
+  -webkit-animation: scale-in-ver-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-ver-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+.titleIndexDos {
+  -webkit-animation: scale-in-ver-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-ver-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.parragrafIndexDos {
+  -webkit-animation: scale-in-ver-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-ver-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.titleSectionNos {
+  -webkit-animation: scale-in-ver-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-ver-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+.parrafragSection {
+  -webkit-animation: scale-in-ver-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-ver-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.parrafragSectionNos {
+  -webkit-animation: scale-in-ver-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-ver-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.img1 {
+  -webkit-animation: scale-in-ver-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-ver-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+.img2 {
+  -webkit-animation: scale-in-ver-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-ver-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+.navBarSec {
+  -webkit-animation: scale-in-ver-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-ver-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+.imgContainer {
+  -webkit-animation: scale-in-ver-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-ver-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.imagenSection {
+  -webkit-animation: scale-in-ver-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-ver-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+.titleSectionServ {
+  -webkit-animation: scale-in-ver-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-ver-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.parragrafSectionServ {
+  -webkit-animation: scale-in-ver-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-ver-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.containerSrv {
+  -webkit-animation: scale-in-ver-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-ver-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.sectionForm {
+  -webkit-animation: scale-in-ver-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-ver-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+.itemForm {
+  -webkit-animation: scale-in-ver-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-ver-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}/*# sourceMappingURL=styles.css.map */
