@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2? family= Roboto:wght@100;300 & display=swap");
 @import url("https://fonts.googleapis.com/css2? family= Allura & display=swap");
+.fa-facebook, .fa-instagram, .fa-whatsapp {
+  width: 100%;
+  height: 30px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -82,6 +87,12 @@ footer {
   width: 100%;
   line-height: 25px;
   padding: 10px;
+}
+
+.fa-facebook, .fa-instagram, .fa-whatsapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .titleSectionNos {
@@ -253,11 +264,11 @@ footer {
     margin-right: 20px;
     margin-left: 20px;
     padding: 20px;
+    gap: 0px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    gap: 0px;
   }
   .tarjetas .cardIndex {
     margin-left: 0px;
@@ -267,39 +278,39 @@ footer {
   }
   .titleIndexUno {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     text-align: center;
     font-size: 30px;
   }
   .parragrafIndexUno {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     text-align: center;
     font-size: 15px;
   }
   .titleIndexDos {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     text-align: center;
   }
   .parragrafIndexDos {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     text-align: center;
   }
   .gridNos {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
   }
   .gridNos .titleSectionNos {
     font-size: 50px;
@@ -311,44 +322,44 @@ footer {
   .gridNos .img1 {
     width: 40%;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   .gridNos .img2 {
     width: 40%;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   .parrafragSection {
     width: 100%;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   .parrafragSection .parrafragSectionNos {
     width: 100%;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   .navBarSec {
     width: 50%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
   }
   .imgContainer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
   }
   .imgContainer .imgpo2 {
     padding-right: 30px;
@@ -367,9 +378,9 @@ footer {
   }
   .containerSrv {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
   }
   .containerSrv .ic1 {
     width: 40%;

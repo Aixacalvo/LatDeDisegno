@@ -16,11 +16,8 @@
         margin-right: 20px;
         margin-left: 20px;
         padding: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
         gap: 0px;
+        @include flexDos(column,center,center);
 
         .cardIndex {
             margin-left: 0px;
@@ -32,44 +29,29 @@
 
 
     .titleIndexUno {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        @include flexDos(column,center,center);
         text-align: center;
         font-size: 30px;
     }
 
     .parragrafIndexUno {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        @include flexDos(column,center,center);
         text-align: center;
         font-size: 15px;
     }
 
     .titleIndexDos {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        @include flexDos(column,center,center);
         text-align: center;
     }
 
     .parragrafIndexDos {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        @include flexDos(column,center,center);
         text-align: center;
     }
 
     .gridNos {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        @include flexDos(column,center,center);
 
         .titleSectionNos {
             font-size: 50px;
@@ -81,19 +63,13 @@
 
         .img1 {
             width: 40%;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
+            @include flexDos(column,center,center);
 
         }
 
         .img2 {
             width: 40%;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
+            @include flexDos(column,center,center);
         }
 
     }
@@ -101,17 +77,11 @@
 
     .parrafragSection {
         width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
+        @include flexDos(column,center,center);
 
         .parrafragSectionNos {
             width: 100%;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
+            @include flexDos(column,center,center);
 
         }
 
@@ -121,17 +91,11 @@
     .navBarSec {
         width: 50%;
         height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        @include flexDos(column,center,center);
     }
 
     .imgContainer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        @include flexDos(column,center,center);
 
         .imgpo2 {
             padding-right: 30px;
@@ -157,10 +121,7 @@
     }
 
     .containerSrv {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        @include flexDos(column,center,center);
 
         .ic1 {
             width: 40%;

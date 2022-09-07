@@ -8,3 +8,23 @@ $fontAllura: 'Allura', cursiva;
 
 $mainColor: rgb(31, 53, 36);
 $secondaryColor: rgb(142, 168, 156);
+
+%iconos {
+    width: 100%;
+    height: 30px;
+}
+
+@mixin flex ($justify, $aling){
+    display: flex;
+    justify-content: $justify;
+    align-items: $aling;
+
+}
+
+@mixin flexDos ($direction, $justify,$aling){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $aling;
+    
+}

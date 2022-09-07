@@ -3,3 +3,9 @@ footer {
     line-height: 25px;
     padding: 10px;
 }
+
+.fa-facebook, .fa-instagram, .fa-whatsapp{
+    @extend %iconos;
+    @include flex(center,center)
+}
+
