@@ -100,7 +100,8 @@ footer {
   font-size: 70px;
   color: rgb(31, 53, 36);
   margin-right: 80px;
-  margin-top: 40px;
+  margin-top: 60px;
+  margin-bottom: 0;
 }
 
 .img1 {
@@ -117,18 +118,19 @@ footer {
   margin-left: 180px;
 }
 
-.parragrafSection {
-  background-color: rgb(31, 53, 36);
-  height: 40vh;
-  padding: 20px;
-  text-align: center;
-}
-
 .parragrafSectionNos {
   background-color: rgb(31, 53, 36);
-  height: 20vh;
+  width: 50%;
+  height: 70vh;
   padding: 20px;
-  text-align: center;
+  align-items: center;
+}
+
+.containerNos {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
 }
 
 .navBarSec {
